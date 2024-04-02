@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 200px;
+  }
+  
+  .back {
+    background-color: aliceblue; /* White background for the form */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow around the form */
+    width: 500px; /* Fixed width */
+    
+    height: 100%;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Space below the heading */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Space between each label-input group */
+  }
+  
+  label {
+    display: block; /* Ensure the label is on a new line */
+    margin-bottom: 5px; /* Small space between label and input */
+    font-weight: bold; /* Make the label text bold */
+  }
+  
+  input[type="text"] {
+    width: 100%; /* Make the input take up the full container width */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #fff; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners */
+    background-color: aliceblue;
+  }
+  
+  button {
+    width: 50%;
+    padding: 10px;
+    background-color: gray; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Space above the button */
+    margin-bottom: 20px;
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #1C86EE; /* Slightly darker blue on hover */
+  }
+  
+  .container{
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.8em;
+  }
+
+  .correct-message {
+    color: green;
+    font-size: 0.8em;
+  }
